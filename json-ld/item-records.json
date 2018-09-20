@@ -1,0 +1,1537 @@
+{
+    "@context": {
+        "@base": "https://catalog.digitallatin.org",
+        "Author": "dcterms:creator",
+        "DLL Author": "frbr:Creator",
+        "DLL Work": "frbr:exemplarOf",
+        "DLLid": "dcterms:identifier",
+        "Date": "dcterms:date",
+        "Editor": "dcterms:contributor",
+        "Format": "dcterms:format",
+        "Place": "schema:City",
+        "Publisher": "dcterms:publisher",
+        "References": {
+            "@id": "dcterms:references",
+            "@type": "@id"
+        },
+        "Repository": "schema:Library",
+        "Rights": "dcterms:rights",
+        "SourceURI": "dcterms:URI",
+        "Title": "dcterms:title",
+        "Type": "dcterms:type",
+        "dcterms": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frbr": "http://vocab.org/frbr/core#",
+        "madsrdf": "http://www.loc.gov/mads/rdf/v1#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema": "http://schema.org/"
+    },
+    "@graph": [
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR2",
+            "Author": "Bēssariōn, Cardinal, 1403-1472",
+            "DLLid": "IR2",
+            "Date": "1503",
+            "Editor": "Manuzio, Aldo, 1449 or 1450-1515",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "in aedib Aldi Romani",
+            "References": {
+                "DLL Author": "Bēssariōn, Cardinal, 1403-1472",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009285351",
+            "Title": "Quae hoc in volumine tractantur Bessarionis cardinalis Niceni [et] Patriarchae Consta[n]tinopolitani In calumniatore[m] Platonis libri quatuor ; eiusdem Correctio librorum platonis de legibus Georgio Trapezuntio interprete eiusdem De natura [et] arte aduersus eundem Trapezuntiu[m] tractatus index eorum omnium qvae singulis libris pertractantur.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR3",
+            "Author": "Fausto, Vittore -1560",
+            "DLLid": "IR3",
+            "Date": "1559",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Aldi filios",
+            "References": {
+                "DLL Author": "Fausto, Vittore -1560",
+                "DLL Work": "Orationes quinque"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823558",
+            "Title": "Victoris Fausti Veneti Orationes quinque,: eius amicorum cura quàm fieri potuit diligenter impressae.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR1",
+            "Author": "Parisetti, Lodovico",
+            "DLLid": "IR1",
+            "Date": "1552",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "Aldi Filii",
+            "References": {
+                "DLL Author": "Parisetti, Lodovico",
+                "DLL Work": "De divina in hominem benevolentia atque beneficentia orationes tres"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009293840",
+            "Title": "Iunioris Ludouici Pariseti Regiensis De divina in hominem beneuolentia atque beneficentia orationes tres ad viros Regienses habitae.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR49",
+            "Author": "Bembo, Pietro, 1470-1547",
+            "DLLid": "IR49",
+            "Date": "1551",
+            "Editor": "Manuzio, Aldo, 1449 or 1450-1515, Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Aldi filios",
+            "References": {
+                "DLL Author": "Bembo, Pietro, 1470-1547",
+                "DLL Work": "Historiae Venetae"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009317049",
+            "Title": "Petri Bembi ... Historiae Venetae libri XII",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR9",
+            "Author": "",
+            "DLLid": "IR9",
+            "Date": "1545",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Aldi filios",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": "In librum Psalmorum breuis explanatio ad Alexandrum Farnesium, cardinalem amplissimum"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009289862",
+            "Title": "M. Antonii Flaminii in librum Psalmorum breuis explanatio ...",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR19",
+            "Author": "",
+            "DLLid": "IR19",
+            "Date": "1518",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus Aldi, et Andreae soceri",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": "Perduellionis rei defensiones duae"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823246",
+            "Title": "Christophori Longolii Civis romani perduellionis rei defensiones duae.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR5",
+            "Author": "Pontano, Giovanni Gioviano",
+            "DLLid": "IR5",
+            "Date": "1505",
+            "Editor": "Manuzio, Aldo, 1449 or 1450-1515",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus Aldi ro.",
+            "References": {
+                "DLL Author": "Pontano, Giovanni Gioviano",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823569",
+            "Title": "Pontani opera. Vrania, siue de stellis libri quinq[ue]. Meteororum liber unus. De hortis hesperidum libri duo. Lepidina siue postorales [sic] pompae septem. Item Meliseus. Maeon. Acon. Hendecasyllaborum libri duo. Tumulorum liber unus. Neniae duodecim. Epigrammata duodecim. Quae uero in toto opere habeantur in indice, qui in calce est, licet uidere",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR28",
+            "Author": "Sigonio, Carlo, 1524?-1584",
+            "DLLid": "IR28",
+            "Date": "1556",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Paulum Manutium, Aldi f",
+            "References": {
+                "DLL Author": "Sigonio, Carlo, 1524?-1584",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/100238008",
+            "Title": "Caroli Sigonii fasti consulares, ac triumphi acti à Romulo rege usque ad Ti. Caesarem: eiusdem In fastos, et triumphos, idest in uniuersam Romanam historiam commentarius: eiusdem de nominibus Romanorum liber.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR37",
+            "Author": "",
+            "DLLid": "IR37",
+            "Date": "1546",
+            "Editor": "Lacinio, Giano, Torresanus, Andreas, de Asula, 1451-1529 , Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Aldi filios",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": "Pretiosa margarita novella"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/100238287",
+            "Title": "Pretiosa margarita novella: de thesauro, ac pretiosissimo philosophorum lapide: artis huius divinae typus & methodus: collectanea ex Arnaldo, Rhaymundo, Rhasi, Alberto, & Michaele Scoto",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR6",
+            "Author": "",
+            "DLLid": "IR6",
+            "Date": "1554",
+            "Editor": "Manuzio, Paolo, 1512-1574, Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Paulum Manutium, Aldi filium",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": "Synopsis ad Eusthatium"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009287318",
+            "Title": "Oribasii Sardiani Synopseos ad Eustathium filium lib. nouem: quibus tota Medicina in compendium redacta continetur",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR40",
+            "Author": "",
+            "DLLid": "IR40",
+            "Date": "1522",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus Aldi et Andreae Asulani soceri",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": "De asse et partibus ius"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/101806975",
+            "Title": "Guillielmi Bvdaei Parisiensis secretarij Regij libri V. de Asse, & partib. eius post duas Parisienses impressiones ab eodem ipso Budaeo castigati, idq[ue] authore Io. Grolierio Lugdunensi Christianissimi Gallorŭ Regis Secretario, et Gallicarŭ copiarum Quaestore, cui etiam ob nostră in eum obseruantiă à nobis illi dicantur.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR31",
+            "Author": "",
+            "DLLid": "IR31",
+            "Date": "1514",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus Aldi et Andreae soceri",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/100828522",
+            "Title": "Libri de re rustica: M. Catonis Lib. I. M. Terrentii Varronis Lib. III. L. Iunii Moderati Columellae Lib. XII. Eiusdem De arboribus liber, separatus ab alijs, quare autem id factum fuerit, ostenditur in epistola ad lectorem. Palladii Lib. XIIII. De duobus dierum generibus, simulq[ue] de umbris & horis, quae apud Palladium, in alia epistola ad lectorem. Georgii Alexandrini Enarrationes priscarum dictionum, quae in his libris Catonis, Varronis, Colummelae.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR22",
+            "Author": "",
+            "DLLid": "IR22",
+            "Date": "1534",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus haeredum Aldi Manutij, & Andreae soceri",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/ita-bnc-ald-00000130-001",
+            "Title": "Hoc uolumine continentur poëtae tres egregij nunc primum in lucem editi: Gratij, q[ui] Augusto Principe floruit, de uenatione lib. I. P. Ouidij Nasonis Halieuticôn liber acephalus. M. Aurelij Olympij Nemesiani Cynegeticôn lib. I ; eiusdem carmen bucolicum. T. Calphurnij Siculi Bucolica. Adriani Cardinalis uenatio.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR12",
+            "Author": "",
+            "DLLid": "IR12",
+            "Date": "1533",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "in aedibus haeredum Aldi et Andreae Soceri",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009279912",
+            "Title": "Libri De re rustica M. Catonis lib. I, M. Terentii Varronis lib. III, L. Iunii Moderati Columellae lib. XII, eiusdem De arboribus liber separatus ab aliis, Palladii lib. XIIII, De duobus dierum generibus simulq[ue] de umbris & horis, quae apud Palladium ...",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR14",
+            "Author": "Ovid, 43 B.C.-17 A.D. or 18 A.D. ",
+            "DLLid": "IR14",
+            "Date": "1502",
+            "Editor": "Manuzio, Aldo, 1449 or 1450-1515",
+            "Format": "book",
+            "Place": "Venice",
+            "Publisher": "Aldus",
+            "References": {
+                "DLL Author": "Ovid, 43 B.C.-17 A.D. or 18 A.D. ",
+                "DLL Work": "Metamorphoses"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823509",
+            "Title": "Ovidii Metamorphoseōn libri qvindecim.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR13",
+            "Author": "Ravizza, Giovita, 1476-1553",
+            "DLLid": "IR13",
+            "Date": "1554",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "in aedibus Pauli Manutii, Aldi filii",
+            "References": {
+                "DLL Author": "Ravizza, Giovita, 1476-1553",
+                "DLL Work": "De numero oratorio libri quinque"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009332892",
+            "Title": "Iouitae Rapicii Brixiani De numero oratorio libri quinque, ad Reginaldum Polum ... Eiusdem paraphrasis in psalmos Dauidis, & quaedam carmina.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR53",
+            "Author": "Vargas Mejía, Francisco, 1484-1560",
+            "DLLid": "IR53",
+            "Date": "1563",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Romae",
+            "Publisher": "apud Paulum Manutium, Aldi F. : in aedibus Populi Romani",
+            "References": {
+                "DLL Author": "Vargas Mejía, Francisco, 1484-1560",
+                "DLL Work": "De episcoporum iurisdictione et Pontificis Maximi auctoritate responsum"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009305575",
+            "Title": "Francisci Vargas ... De Episcoporum iurisdictione, et Pontificis Max. auctoritate, responsum.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR43",
+            "Author": "Victorius, Marianus, approximately 1485-1572",
+            "DLLid": "IR43",
+            "Date": "1562",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Romae",
+            "Publisher": "apud Paulum Manutium, Aldi f.",
+            "References": {
+                "DLL Author": "Victorius, Marianus, approximately 1485-1572",
+                "DLL Work": "De sacramento confessionis, seu paenitentiae, historia"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009332210",
+            "Title": "De sacramento confessionis, seu paenitentiae, historia: ex veteribus sanctis patribus collecta, per quam contra haereticos lutheranos copiose ostenditur, sacramentalem confessionem ab ipso Christo institutam esse, et in ecclesiae catholicae vsu vsque ad nostra tempora semper obseruatam. De antiquis paenitentiis vtilis libellus, e veteribus sanctis patribus accurate contextus",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR46",
+            "Author": "",
+            "DLLid": "IR46",
+            "Date": "1513",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 , Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "in aedibus Aldi, [et] Andreae Asulani soceri",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009303301",
+            "Title": "Habentur hoc volumine haec Theodoro Gaza interprete, Aristotelis De natura animalium lib. ix ; eiusdem De partibus animalium lib. iiii ; eiusdem De generatione animalium lib. v. Theophrasti De historia plantarum lib. ix et decimi principium duntaxat ; eiusdem De causis plantarum lib vi. Aristotelis problemata ... Alexa[n]dri Aphrodisiensis p[ro]blemata duobus libris no[n] unqua[m] ante i[m]pressa ...",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR10",
+            "Author": "",
+            "DLLid": "IR10",
+            "Date": "1558",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Paulum Manutium, Aldi F.",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009333215",
+            "Title": "Catullus, et in eum commentarius M. Antonii Mureti, ab eodem correcti, & scholiis illustrati, Tibullus et Propertius.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR29",
+            "Author": "",
+            "DLLid": "IR29",
+            "Date": "1522",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus Aldi et Andreae Asulani soceri",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823340",
+            "Title": "Trogi Pompei externae historiae in compendium ab Iustino redactae.: externorum imperatorum uitae authore Aemylio Probo.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR44",
+            "Author": "",
+            "DLLid": "IR44",
+            "Date": "1513",
+            "Editor": "Manuzio, Aldo, 1449 or 1450-1515",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "in aedibus Aldi, et Andreae soceri.",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823495",
+            "Title": "M. T. Ciceronis epistolarum ad Atticum, ad Brutum, ad quintum fratrem, libri. XX. Latina interpretatio eorum, quae in ijs ipsis epistolis graece scripta sunt. ubi multa & mutata, & addita sunt. Admonemus igitur lectorem, ut inde sibi librum corrigat suum.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR21",
+            "Author": "Livy",
+            "DLLid": "IR21",
+            "Date": "1566",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Paulum Manutium, Aldi F.",
+            "References": {
+                "DLL Author": "Livy",
+                "DLL Work": "Ab Urbe Condita"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009311392",
+            "Title": "T. Livii patavini, Historiarum ad urbe condita, libri, qui extant, XXXV. Cum universae historiae epitomis",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR30",
+            "Author": "",
+            "DLLid": "IR30",
+            "Date": "1522",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "in aedibus Aldi, et Andreae Asulani soceri",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/100000725",
+            "Title": "Ex Plauti comoediis: XX. quarvm carmina magna ex parte in mensum suum restituta sunt",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR39",
+            "Author": "Pliny, the Elder",
+            "DLLid": "IR39",
+            "Date": "1536",
+            "Editor": "Manuzio, Paolo, 1512-1574, Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus haeredum Aldi, et Andreae Asulani soceri",
+            "References": {
+                "DLL Author": "Pliny, the Elder",
+                "DLL Work": "Naturalis Historia"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/100217345",
+            "Title": "C. Plinii Secundi Naturalis historiae.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR8",
+            "Author": "Quintilian",
+            "DLLid": "IR8",
+            "Date": "1521",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus Aldi, et Andreae soceri",
+            "References": {
+                "DLL Author": "Quintilian",
+                "DLL Work": "Institutio Oratoria"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823596",
+            "Title": "M. Fabii Quintiliani Institutionum oratoriarum libri XII diligentius recogniti MDXXII.: Index capitum totius operis. Conuersio dictionum Graecarum, quas ipse author in latinum non transtulit.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR18",
+            "Author": "",
+            "DLLid": "IR18",
+            "Date": "1521",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus Aldi, et Andreae soceri",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823599/Home",
+            "Title": "C. Crispi Sallustii De coniuratione Catilinae.: Eiusdem De bello Iugurthino. Orationes quaedam ex libris Historiarum C. Crispi Sallustij. Eiusdem oratio contra M.T. Ciceronem. M.T. Ciceronis Oratio contra C. Crispu[m] Sallustium. Eiusdem orationes quatuor contra Lucium Catilina[m]. Porcij Latronis Declamatio contra Lucium Catilina[m]. Quae omnia solerti nuper cura repurgata sunt, ac suo quaeq; ordine optime digesta.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR27",
+            "Author": "Statius, P. Papinius (Publius Papinius)",
+            "DLLid": "IR27",
+            "Date": "1502",
+            "Editor": "Manuzio, Aldo, 1449 or 1450-1515",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In academia Aldi Ro.",
+            "References": {
+                "DLL Author": "Statius, P. Papinius (Publius Papinius)",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/100001017",
+            "Title": "Statii Syluarum libri quinque ; Thebaidos libri duodecim ; Achilleidos duo.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR36",
+            "Author": "Tacitus, Cornelius",
+            "DLLid": "IR36",
+            "Date": "1534",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "in aedibus haeredum Aldi Manutii ... et Andreae Asulani soceri",
+            "References": {
+                "DLL Author": "Tacitus, Cornelius",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009305569",
+            "Title": "Cornelius Tacitus exacta cura recognitus, et emendatus: copiosus index rerum, locorum, et personarum, de quibus in his libris agitur",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR11",
+            "Author": "Livy",
+            "DLLid": "IR11",
+            "Date": "1555",
+            "Editor": "Sigonio, Carlo, 1524?-1584, Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Paulum Manutium, Aldi F. ...",
+            "References": {
+                "DLL Author": "Livy",
+                "DLL Work": "Ab Urbe Condita"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009311707",
+            "Title": "T. Liuii Patauini, Historiarum ab urbe condita, libri qui extant, XXXV",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR51",
+            "Author": "Thomas, Aquinas, Saint",
+            "DLLid": "IR51",
+            "Date": "1562",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Romae",
+            "Publisher": "apud Paulum Manutium, Aldi F.",
+            "References": {
+                "DLL Author": "Thomas, Aquinas, Saint",
+                "DLL Work": "In Iob"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009339456",
+            "Title": "Diui Thomae Aquinatis ... In librum B. Iob expositio, cum indice rerum memorabilium.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR20",
+            "Author": "",
+            "DLLid": "IR20",
+            "Date": "1566",
+            "Editor": "Manuzio, Paolo, 1512-1574, Victorius, Marianus, approximately 1485-1572",
+            "Format": "book",
+            "Place": "Romae",
+            "Publisher": "apud Paulum Manutium, Aldi f. in aedibus Populi Romani",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": "Epistulae"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009306945",
+            "Title": "Epistolae D. Hieronymi Stridonensis, et libri contra haereticos, ex antiquissimis exemplaribus, nunc primum, opera, ac studio Mariani Victorii Reatini emendati, eiusdemque argumentis, [et] scholiis illustrati. Adiecta est operis initio Vita S. Hieronymi, olim falso ab Erasmo, aliisque relata, quam idem Marianus ex eius scriptis collectam primus edidit. ... Index locupletissimus, ... ab eodem Mariano compositus. Loca Sacrae Scripturae, a D. Hieronymo explicata.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR38",
+            "Author": "",
+            "DLLid": "IR38",
+            "Date": "1503",
+            "Editor": "Manuzio, Aldo, 1449 or 1450-1515",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "Impressum Rhegii Lingobardiae expensis & labore Francisci Mazalis ... ; Cura & diligentia Aldi Ro. ...",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/100818245",
+            "Title": "Iulii Firmici Astronomicorum libri octo integri & emendati, ex Scythicis oris ad nos nuper allati. Marci Manilii Astronomicorum libri quinque. Arati Phaenomena Germanico Caesare interprete cum commentariis & imaginibus. Arati eiusdem Phaenomenon fragmentum Marco T.C. interprete. Arati eiusdem Phaenomena Ruffo Festo Auienio paraphraste. Arati Phaenomena graece. Theonis Commentaria copiosissima in Arati Phaenomena graece. Procli Diadochi Sphaera graece. Procli eiusdem Sphaera, Thoma Linacro Britanno interprete.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR47",
+            "Author": "",
+            "DLLid": "IR47",
+            "Date": "1535",
+            "Editor": "Manuzio, Aldo, 1449 or 1450-1515, Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus haeredum Aldi, et Andreae soceri",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010518764",
+            "Title": "L. Coelii Lactantii Firmiani Diuinarum institutionum libri septem proxime castigati et aucti. ; Eiusdem De ira Dei liber I. ; De opificio Dei liber I. ; Epitome in libros suos, liber acephalos. ; Phoenix. ; Carmen de dominica resurrectione. ; Item Index in eundem rerum omnium.  Tertulliani liber apologeticus cum indice.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR7",
+            "Author": "Cicero, Marcus Tullius",
+            "DLLid": "IR7",
+            "Date": "1540",
+            "Editor": "Manuzio, Paolo, 1512-1574, Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "Paulus Manutius Aldi",
+            "References": {
+                "DLL Author": "Cicero, Marcus Tullius",
+                "DLL Work": "Epistulae ad Familiares"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/100000717",
+            "Title": "M. Tullii Ciceronis epistolae familiares, diligentius quam quae hactenus exierunt emendatae",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR17",
+            "Author": "Cicero, Marcus Tullius",
+            "DLLid": "IR17",
+            "Date": "1552",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Aldi filios",
+            "References": {
+                "DLL Author": "Cicero, Marcus Tullius",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009320707",
+            "Title": "In omnes M. Tullii Ciceronis Orationes quot quidem extant doctissimorum uirorum Lucubrationes: accurate in unum uolumen collectae, locisque non paucis ad uertatem emendataes",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR26",
+            "Author": "Cicero, Marcus Tullius",
+            "DLLid": "IR26",
+            "Date": "1554",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Paulum Manutium, Aldi filium",
+            "References": {
+                "DLL Author": "Cicero, Marcus Tullius",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823494",
+            "Title": "Ciceronis De oratore libri III, ; Orator, ; De claris oratoribus.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR35",
+            "Author": "Cicero, Marcus Tullius",
+            "DLLid": "IR35",
+            "Date": "1583",
+            "Editor": "Manuzio, Aldo, 1547-1597, Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "Aldus Mannuccius, Paulli F. Aldi N.",
+            "References": {
+                "DLL Author": "Cicero, Marcus Tullius",
+                "DLL Work": "De Inventione"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009264891",
+            "Title": "In M. Tulli Ciceronis de Inventione libros II Commentarius M. Fabij Victorini.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR34",
+            "Author": "Gabuccini, Girolamo, active 16th century",
+            "DLLid": "IR34",
+            "Date": "1561",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "Aldus",
+            "References": {
+                "DLL Author": "Gabuccini, Girolamo, active 16th century",
+                "DLL Work": "De comitiali morbo"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009281306",
+            "Title": "Hieronymi Gabucinii ... De comitiali morbo libri III ...",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR50",
+            "Author": "Apuleius",
+            "DLLid": "IR50",
+            "Date": "1521",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In Aedibus Aldi, et Andreae soceri",
+            "References": {
+                "DLL Author": "Apuleius",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823478",
+            "Title": "L. Apuleii Metamorphoseos, siue Lusus asini libri XI. Floridoru[m] IIII. ; De Deo Socratis I. ; De Philosophia I. ; Asclepius Trismegisti Dialogus eode[m] Apuleio i[n]terprete. Eiusdem Apuleij liber de Dogmatis Platonicis. Eiusde[m] liber de Mundo, que[m] magna ex parte ex lib. Aristotelis eiusde[m] argumenti in latinum traduxit. hic sane liber mutilatus ante nostram impressionem circunferebatur. eum nos fidem antiquisimi codicis secuti, restituimus. multos aut, & quide[m] insigneis errores commisit Apuleius in uertendo hoc libro, quos omneis indicauit Petrus Alcyonius graeca, & latina literatura praestantissimus, & philosophus clarissimus cum librum illum latinitate donaret. Apologiae II. Isagogicus liber Platonicae philosophiae per Alcinou[m] philosophum, graece impressus. nam maluimus hunc graecum imprimere, quam[quam] latinum. cum ineptae tralatione cuiusdam Episcopi Tropiensis barbarus esset.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR25",
+            "Author": "Manuzio, Paolo, 1512-1574",
+            "DLLid": "IR25",
+            "Date": "1560",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "Aldus",
+            "References": {
+                "DLL Author": "Manuzio, Paolo, 1512-1574",
+                "DLL Work": "Epistulae"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823562",
+            "Title": "Epistolarum Pauli Manutii libri IIII.. Eiusdem quae Praefationes appellantur.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR45",
+            "Author": "Valerius Flaccus, Gaius",
+            "DLLid": "IR45",
+            "Date": "1523",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus Aldi et Andreae Asulani soceri",
+            "References": {
+                "DLL Author": "Valerius Flaccus, Gaius",
+                "DLL Work": "Argonautica"
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/ita-bnc-ald-00000821-001",
+            "Title": "C. Valerii Flacci Argonautica. Io. Baptistae Pij carmen ex quarto Argonauticon Apollonij. Orphei Argonautica innominato interprete.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR23",
+            "Author": "Ovid, 43 B.C.-17 A.D. or 18 A.D. ",
+            "DLLid": "IR23",
+            "Date": "1533",
+            "Editor": "Manuzio, Paolo, 1512-1574, Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus haeredvm Aldi, et Andreae Soceri",
+            "References": {
+                "DLL Author": "Ovid, 43 B.C.-17 A.D. or 18 A.D. ",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823507",
+            "Title": "P. Ouidij Nasonis uita per Aldvm ex ipsius libris excerpta. Heroidvm Epistolae. Amorvm lib. III. De arte amandi lib. III. De remedio amoris lib. II. De medicamine faciei. Nux. Somnivm. Pulex & Philomela quaemuis Ouidij esse dicantur, non magis tamen ipsius sunt, quàm Sabini tres illae, quae illi ascributur, epistolae. Nequid tamen desyderari a nobis posset: haec etia adiunximus",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR32",
+            "Author": "Ovid, 43 B.C.-17 A.D. or 18 A.D. ",
+            "DLLid": "IR32",
+            "Date": "1534",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 , Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "Aldus",
+            "References": {
+                "DLL Author": "Ovid, 43 B.C.-17 A.D. or 18 A.D. ",
+                "DLL Work": "Metamorphoses"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823511",
+            "Title": "Ouidii Metamorphoseon libri XV.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR41",
+            "Author": "Horace",
+            "DLLid": "IR41",
+            "Date": "1566",
+            "Editor": "Manuzio, Paolo, 1512-1574, Bruto, Giovanni Michele, approximately 1515-1594",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Paulum Manutium, Aldi F.",
+            "References": {
+                "DLL Author": "Horace",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009320597",
+            "Title": "Q. Horatius Flaccus, ex fide atque auctoritate decem librorum manuscriptorum, Opera",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR42",
+            "Author": "",
+            "DLLid": "IR42",
+            "Date": "1522",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus Aldi et Andreae Asulani",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": "Naturales Quaestiones"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823605",
+            "Title": "L. Annei Senecae Naturalium quaestionum libri VII. Matthaei Fortunati in eosdem libros annotationes ..",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR52",
+            "Author": "",
+            "DLLid": "IR52",
+            "Date": "1547",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Aldi filios",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009305192",
+            "Title": "Asconii Pediani Expositio in IIII orationes M. Tulij Ciceronis contra C. Verrem ; In orationem pro C. Cornelio ; In orationem contra C. Antoniu[m], et L. Catilina[m] ; In orationem pro M. Scauro ; In orationem contra L. Pisonem ; In orationem pro Milone",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR15",
+            "Author": "Pontano, Giovanni Gioviano",
+            "DLLid": "IR15",
+            "Date": "1513",
+            "Editor": "Manuzio, Aldo, 1449 or 1450-1515",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "in aedibus Aldi, et Andreae Asulani soceri",
+            "References": {
+                "DLL Author": "Pontano, Giovanni Gioviano",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823570",
+            "Title": "Pontani Opera. Vrania, siue de stellis libri quinq;. Meteororum liber unus. De hortis Hesperidum libri duo. Lepidina, siue postorales [sic] pompae septem. Item Meliseus. Maeon. Acon. Hendecasyllaborum libri duo. Tumulorum liber unus. Neniae duodecim. Epigrammata duodecim ..",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR24",
+            "Author": "Pontano, Giovanni Gioviano",
+            "DLLid": "IR24",
+            "Date": "1518",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus Aldi, et Andreae soceri",
+            "References": {
+                "DLL Author": "Pontano, Giovanni Gioviano",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/010823571",
+            "Title": "Ioannis Iouiani Pontani Opera omnia soluta oratione composita.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR33",
+            "Author": "Sannazaro, Jacopo",
+            "DLLid": "IR33",
+            "Date": "1535",
+            "Editor": "Torresanus, Andreas, de Asula, 1451-1529 ",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus haeredum Aldi Manvtii, et Andreae Asulani soceri",
+            "References": {
+                "DLL Author": "Sannazaro, Jacopo",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/100218009",
+            "Title": "Iacobi Sannazarii Opera omnia latine scripta,: nuper edita.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR4",
+            "Author": "",
+            "DLLid": "IR4",
+            "Date": "1546",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Aldi filios",
+            "References": {
+                "DLL Author": "",
+                "DLL Work": ""
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/100024812",
+            "Title": "M. Tullii Ciceronis De philosophia prima pars[-uolumen secundum], id est ...",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR16",
+            "Author": "Manuzio, Paolo, 1512-1574",
+            "DLLid": "IR16",
+            "Date": "1547",
+            "Editor": "Manuzio, Paolo, 1512-1574",
+            "Format": "book",
+            "Place": "Venetiis",
+            "Publisher": "apud Aldi Filii",
+            "References": {
+                "DLL Author": "Manuzio, Paolo, 1512-1574",
+                "DLL Work": "In epistolas Ciceronis ad Atticum Pauli Manutii commentarius"
+            },
+            "Repository": "HathiTrust Digital Library",
+            "Rights": "Public Domain",
+            "SourceURI": "https://catalog.hathitrust.org/Record/009335298",
+            "Title": "In epistolas Ciceronis ad Atticum",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR696",
+            "Author": "Porfyrius, P. Optatianus",
+            "DLLid": "IR696",
+            "Date": "1877",
+            "Editor": "",
+            "Format": "",
+            "Place": "Lipsiae",
+            "Publisher": "B. G. Teubner",
+            "References": {
+                "DLL Author": "Porfyrius, P. Optatianus",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/carmina00porpgoog",
+            "Title": "Publilii Optatiani Porfyrii Carmina : Recensuit et praefatus est Lucianus Mueller. ",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR689",
+            "Author": "Marcellinus, comes",
+            "DLLid": "IR689",
+            "Date": "1619",
+            "Editor": "",
+            "Format": "",
+            "Place": "Lutetiae Parisiorum",
+            "Publisher": "ex Officina Niuelliana",
+            "References": {
+                "DLL Author": "Marcellinus, comes",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_iPc_8H-By6QC",
+            "Title": "Marcellini v. c. comitis Illyriciani Chronicon multò quàm antea emendatius et auctius. Opera Iac. Sirmondi societatis Iesu presbyteri",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR686",
+            "Author": "Paris, Julius",
+            "DLLid": "IR686",
+            "Date": "1606",
+            "Editor": "",
+            "Format": "",
+            "Place": "Hanoviae",
+            "Publisher": "typis Wechelianis apud Claudium Marnium & heredes",
+            "References": {
+                "DLL Author": "Paris, Julius",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_aO7b-YZedU0C",
+            "Title": "Eryci Puteani De Erycio nomine syntagma, item Iuli Paridis De nominibus epitome",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR664",
+            "Author": "Dares, Phrygius",
+            "DLLid": "IR664",
+            "Date": "1873",
+            "Editor": "",
+            "Format": "",
+            "Place": "Lipsiae",
+            "Publisher": "B. G. Teubner",
+            "References": {
+                "DLL Author": "Dares, Phrygius",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/daretisphrygiide00dareuoft",
+            "Title": "Daretis Phrygii De excidio Troiae historia ",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR60",
+            "Author": "Macrobius, Ambrosius Aurelius Theodosius",
+            "DLLid": "IR60",
+            "Date": "1597",
+            "Editor": "",
+            "Format": "",
+            "Place": "Lugduni Batavorum",
+            "Publisher": "Ex officina Plantiniana, Apud Franciscum Raphelengium",
+            "References": {
+                "DLL Author": "Macrobius, Ambrosius Aurelius Theodosius",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_NNjmCk6X4JgC",
+            "Title": "Aur. Theodosii Macrobi[i] V. Cl. & inlustris. Opera. : Joh. Isacius Pontanus recensuit: & Saturnaliorum libros MS. ope auxit, ordinauit, & Castigationes siue notas adiecit ; Contenta hoc libro vide pagina sequenti: quibus accedunt I. Meursi[i] breuiores notae.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR639",
+            "Author": "Macrobius, Ambrosius Aurelius Theodosius",
+            "DLLid": "IR639",
+            "Date": "1574",
+            "Editor": "",
+            "Format": "",
+            "Place": "Venetiis",
+            "Publisher": "apud Io. Gryphium",
+            "References": {
+                "DLL Author": "Macrobius, Ambrosius Aurelius Theodosius",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_lwqqo17RyIIC",
+            "Title": "Macrobii Ambrosii Aurelii Theodosii, ... In Somnium Scipionis, lib. 2. Saturnaliorum lib. 7. Ex uarijs, ac uetustissimis codicibus recogniti, & aucti",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR638",
+            "Author": "Macrobius, Ambrosius Aurelius Theodosius",
+            "DLLid": "IR638",
+            "Date": "1565",
+            "Editor": "",
+            "Format": "",
+            "Place": "Venetiis",
+            "Publisher": "apud Ioan. Gryphium",
+            "References": {
+                "DLL Author": "Macrobius, Ambrosius Aurelius Theodosius",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_xK3dbYd79tEC",
+            "Title": "Macrobii Ambrosii Aurelii Theodosij, ... In Somnium Scipionis, lib. 2. Saturnaliorum, lib. 7. Ex uariis, ac uetustissimis codicibus recogniti & aucti",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR637",
+            "Author": "Macrobius, Ambrosius Aurelius Theodosius",
+            "DLLid": "IR637",
+            "Date": "1542",
+            "Editor": "",
+            "Format": "",
+            "Place": "Lugduni",
+            "Publisher": "apud Seb. Gryphium",
+            "References": {
+                "DLL Author": "Macrobius, Ambrosius Aurelius Theodosius",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/search.php?query=macrobius&sort=-date&page=2",
+            "Title": "Macrobii Ambrosii Aurelii Theodosii, ... In somnium Scipionis, lib. 2. Saturnaliorum, lib. 7. Ex uarijs, ac uetustissimis codicibus recogniti, & aucti",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR634",
+            "Author": "Macrobius, Ambrosius Aurelius Theodosius",
+            "DLLid": "IR634",
+            "Date": "1526",
+            "Editor": "",
+            "Format": "",
+            "Place": "Coloniae",
+            "Publisher": "Hittorpius",
+            "References": {
+                "DLL Author": "Macrobius, Ambrosius Aurelius Theodosius",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_sClIMLkeMHgC",
+            "Title": "Macrobii Aurelii Theodosii viri consularis In Somnium Scipionis libri duo et septem eiusdem Saturnaliorum. Nunc denuo recogniti, & multis in locis aucti.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR633",
+            "Author": "Macrobius, Ambrosius Aurelius Theodosius",
+            "DLLid": "IR633",
+            "Date": "1515",
+            "Editor": "",
+            "Format": "",
+            "Place": "Florentiae",
+            "Publisher": "Opera & sumptu Philippi Iuntae",
+            "References": {
+                "DLL Author": "Macrobius, Ambrosius Aurelius Theodosius",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_pK_97ow1_68C",
+            "Title": "Hoc volumine continentur. Macrobij interpretatio in somnium Scipionis a Cicerone confictum. Eiusdem Saturnaliorum libri septem. Haec omnia Nicolaus Angelius ... summa diligentia correxit, imprimique curauit",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR632",
+            "Author": "Macrobius, Ambrosius Aurelius Theodosius",
+            "DLLid": "IR632",
+            "Date": "1513",
+            "Editor": "",
+            "Format": "",
+            "Place": "Venetiis",
+            "Publisher": "Per Augustinium de Zannis de Portesio",
+            "References": {
+                "DLL Author": "Macrobius, Ambrosius Aurelius Theodosius",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_thLNYKCWkYgC",
+            "Title": "En tibi lector candidissime. Macrobius qui antea mancus mutilus ac lacer circumferebatur nunc primum integer nitidus & suo nitori restitutus in quo graecae maiestatis dignitas quo ad eius fieri potuit superstes reperitur. Ioannes Riuius recensuit",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR629",
+            "Author": "Macrobius, Ambrosius Aurelius Theodosius",
+            "DLLid": "IR629",
+            "Date": "1893",
+            "Editor": "",
+            "Format": "",
+            "Place": "Lipsiae",
+            "Publisher": "In aedibus B.G. Teubneri",
+            "References": {
+                "DLL Author": "Macrobius, Ambrosius Aurelius Theodosius",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/macrobivsfrancis00macr",
+            "Title": "Macrobius; Franciscus Eyssenhardt iterum recognovit; adiectae sunt tabulae",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR58",
+            "Author": "Macrobius, Ambrosius Aurelius Theodosius",
+            "DLLid": "IR58",
+            "Date": "1488",
+            "Editor": "",
+            "Format": "",
+            "Place": "Venetiis",
+            "Publisher": "Antonius de Strata, de Cremona",
+            "References": {
+                "DLL Author": "Macrobius, Ambrosius Aurelius Theodosius",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/hiccodexauieniic00avie?q=Avienus",
+            "Title": "Hic codex Auienii co[n]tinet epigra[m]ma, eiusde[m] Arati phaenomena geographia[m] carmine heroico & oras maritimas trimetro iambico Germanici quoq[ue] & Marci Tulii Arati fragmenta & Sereni uersus de uariis curandis morbis.",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR599",
+            "Author": "Apicius",
+            "DLLid": "IR599",
+            "Date": "1503",
+            "Editor": "",
+            "Format": "",
+            "Place": "Venetiis",
+            "Publisher": "Iohannem de Cereto de Tridino alias Tacuinum",
+            "References": {
+                "DLL Author": "Apicius",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_hJOtTQw-OrUC",
+            "Title": "Apicii Celii De re coquinaria libri decem. Coquinariæ capita Græca ab Apitio posita haec sunt. Epimeles: Artoptus: Cepurica: Pandecter: Osprion Trophetes: Polyteles: Tetrapus: Thalassa: Halieus. Hanc Plato adulatricem medicinæ appellat. ",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR598",
+            "Author": "Apicius",
+            "DLLid": "IR598",
+            "Date": "1498",
+            "Editor": "",
+            "Format": "",
+            "Place": "Mediolani",
+            "Publisher": "Per magistrum Guilermum Signerre Rothomagensem",
+            "References": {
+                "DLL Author": "Apicius",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/ita-bnc-in2-00001189-001",
+            "Title": "Apicius In Re Quoquinaria",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR584",
+            "Author": "Apuleius",
+            "DLLid": "IR584",
+            "Date": "1635",
+            "Editor": "",
+            "Format": "",
+            "Place": "Parisiis",
+            "Publisher": "Apud Simonem Fevrier, ad primam Columnam Magnae Aulae Palatij",
+            "References": {
+                "DLL Author": "Apuleius",
+                "DLL Work": "Apologia"
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_VVJ0gz0rzvUC",
+            "Title": "L. ApuleI ... Apologia, recognita, & nonnullis notis, ac obseruationibus illustrata a Ionne Pricæo Anglo-Britanno. Accesserunt antiquitatum fragmenta quædam æri incisa",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR570",
+            "Author": "Apuleius",
+            "DLLid": "IR570",
+            "Date": "1620",
+            "Editor": "",
+            "Format": "",
+            "Place": "Basileae",
+            "Publisher": "Sebastianum Henricpetri",
+            "References": {
+                "DLL Author": "Apuleius",
+                "DLL Work": "Metamorphoses"
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_b5GQE79LbCMC",
+            "Title": "L. Apuleii Madaurensis ... Opera, quae quidem extant, omnia. In primis vero' De asino aureo libri 11. cum eruditissimis Philippi Beroaldi commentariis. Et Godescalci Steuuechii Heusdani in L. Apuleii opera omnia quaestionibus & conjecturis: nec non aliorum doctiss. virorum in eundem emendationibus. ... Reliquorum operum catalogum partis 2. titulus indicabit. ",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR569",
+            "Author": "Apuleius",
+            "DLLid": "IR569",
+            "Date": "1594",
+            "Editor": "Casaubon, Isaac, 1559-1614",
+            "Format": "",
+            "Place": "s.l.",
+            "Publisher": "ex typographo Hieronymi Comelini",
+            "References": {
+                "DLL Author": "Apuleius",
+                "DLL Work": "Apologia"
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/ita-bnc-mag-00000640-001",
+            "Title": "L. Apulei Madaurensis ... Apologia. Isaacus Casaubonus recensuit, Graeca suppleuit, & Castigationum libellum adiecit. Ad virum illustrem Iosephum Scaligerum",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR583",
+            "Author": "Apuleius",
+            "DLLid": "IR583",
+            "Date": "1533",
+            "Editor": "",
+            "Format": "",
+            "Place": "Basileae",
+            "Publisher": "Excudebat Henricus Petrus",
+            "References": {
+                "DLL Author": "Apuleius",
+                "DLL Work": [
+                    "Metamorphoses",
+                    "Florida",
+                    "De Platone et Eius Dogmate",
+                    "Apologia",
+                    "De Mundo"
+                ]
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_k8VDS85ck4wC",
+            "Title": "L. Apuleii Madaurensis philosophi Platonici quae quidem extare nouimuus [sic] monimenta, quorum catalogum sequens exhibet pagella",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR582",
+            "Author": "Apuleius",
+            "DLLid": "IR582",
+            "Date": "1504",
+            "Editor": "Beroaldo, Filippo, 1453-1505",
+            "Format": "",
+            "Place": "Venetiis",
+            "Publisher": "per Bartholomeum de Zanis de portesio",
+            "References": {
+                "DLL Author": "Apuleius",
+                "DLL Work": "Metamorphoses"
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_XhaIKlun4aYC",
+            "Title": "Commentarij a Philippo Beroaldo conditi in asinum aureum Lucij Apuleij",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR568",
+            "Author": "Ammianus Marcellinus",
+            "DLLid": "IR568",
+            "Date": "1544",
+            "Editor": "",
+            "Format": "",
+            "Place": "Parisiis",
+            "Publisher": "ex officina Rob. Stephani typographi regij",
+            "References": {
+                "DLL Author": "Ammianus Marcellinus",
+                "DLL Work": "Rerum gestarum libri qui supersunt"
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_9I1pe9OQsukC",
+            "Title": "Ammiani Marcellini Rerum gestarum libri 18, à decimoquarto ad trigesimumprimum. nam 13 priores desiderantur. ... Librum trigesimumprimum qui in exemplari Frobeniano non habetur, adiecimus ex codice Mariangeli Accursij",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR581",
+            "Author": "Ammianus Marcellinus",
+            "DLLid": "IR581",
+            "Date": "1600",
+            "Editor": "",
+            "Format": "",
+            "Place": "s.l.",
+            "Publisher": "Apud Franciscum le Preux",
+            "References": {
+                "DLL Author": "Ammianus Marcellinus",
+                "DLL Work": "Rerum gestarum libri qui supersunt"
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_ATtwRxzzAiYC",
+            "Title": "Ammiani Marcellini Rerum sub Impp. Constantio, Iuliano, Iouiano, Valentiniano, & Valente, per 26. annos gestarum historia, libris 18. comprehensa, qui è 31. hodie supersunt. Cui nunc primùm accesserunt. Breuiaria singulis libris praefixa. Perpetuae ad marginem notae morales ac politicae. ",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR580",
+            "Author": "Ammianus Marcellinus",
+            "DLLid": "IR580",
+            "Date": "1609",
+            "Editor": "",
+            "Format": "",
+            "Place": "Hambrugi",
+            "Publisher": "ex bibliopolio Frobeniano",
+            "References": {
+                "DLL Author": "Ammianus Marcellinus",
+                "DLL Work": "Rerum gestarum libri qui supersunt"
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/bub_gb_Q7NmiITX1vsC",
+            "Title": "Ammiani Marcellini rerum gestarum qui de 31. supersunt libri 18. Ad fidem ms. & veterum codd. recensiti, & obseruationibus illustrati. Ex bibliotheca Fr. LinderbrogI",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR539",
+            "Author": "Ovid, 43 B.C.-17 A.D. or 18 A.D. ",
+            "DLLid": "IR539",
+            "Date": "1619",
+            "Editor": "",
+            "Format": "",
+            "Place": "Amsterodami",
+            "Publisher": "Apud Guilelmum Ianssonium",
+            "References": {
+                "DLL Author": "Ovid, 43 B.C.-17 A.D. or 18 A.D. ",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/ned-kbn-all-00004216-001",
+            "Title": "Publii Ovidii Nasonis Operum - Tomus I",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR538",
+            "Author": "Ovid, 43 B.C.-17 A.D. or 18 A.D. ",
+            "DLLid": "IR538",
+            "Date": "1661",
+            "Editor": "",
+            "Format": "",
+            "Place": "Amstelaedami",
+            "Publisher": "Ex Officina Elzeveriana",
+            "References": {
+                "DLL Author": "Ovid, 43 B.C.-17 A.D. or 18 A.D. ",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/ned-kbn-all-00003664-001",
+            "Title": "Operum editio nova Ovidius Naso Tomus II",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR516",
+            "Author": "Victor, Sextus Aurelius",
+            "DLLid": "IR516",
+            "Date": "1478",
+            "Editor": "",
+            "Format": "",
+            "Place": "Florentiae",
+            "Publisher": "Apud Sanctum Iacobum de Ripoli",
+            "References": {
+                "DLL Author": "Victor, Sextus Aurelius",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/ita-bnc-in2-00001450-001",
+            "Title": "De viris illustribus",
+            "Type": "Public Domain"
+        },
+        {
+            "@id": "https://catalog.digitallatin.org/dll-item-record/IR520",
+            "Author": "Pliny, the Elder",
+            "DLLid": "IR520",
+            "Date": "1535",
+            "Editor": "",
+            "Format": "",
+            "Place": "Venetiis",
+            "Publisher": "In aedibus haeredum Aldi & Andreae Asulani Soceri",
+            "References": {
+                "DLL Author": "Pliny, the Elder",
+                "DLL Work": ""
+            },
+            "Repository": "Internet Archive",
+            "Rights": "Public Domain",
+            "SourceURI": "https://archive.org/details/ita-bnc-ald-00000082-001",
+            "Title": "C. Plinii Secundi Naturalis historiae vol. 3",
+            "Type": "Public Domain"
+        }
+    ]
+}
