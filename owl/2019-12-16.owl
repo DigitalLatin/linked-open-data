@@ -83,12 +83,13 @@
     
 
 
-    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#hasName -->
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#hasLabel -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#hasName">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#hasLabel">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Person"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Name"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Work"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Label"/>
     </owl:ObjectProperty>
     
 
@@ -99,6 +100,17 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Authority"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#isPublishedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#isPublishedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#publishes"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Edition"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#Publisher"/>
     </owl:ObjectProperty>
     
 
@@ -139,6 +151,8 @@
     <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#hasDLL_URN -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#hasDLL_URN">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Work"/>
         <rdfs:comment xml:lang="en">The URN that identifies an object in the Digital Latin Library&apos;s catalog.</rdfs:comment>
         <rdfs:label xml:lang="en">Has DLL URN</rdfs:label>
     </owl:DatatypeProperty>
@@ -148,6 +162,8 @@
     <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#hasLOC_URN -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#hasLOC_URN">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Work"/>
         <rdfs:comment xml:lang="en">The URN that identifies an object in the Library of Congress system.</rdfs:comment>
         <rdfs:label xml:lang="en">Has LOC URN</rdfs:label>
     </owl:DatatypeProperty>
@@ -157,6 +173,8 @@
     <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#hasSTOA_URN -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#hasSTOA_URN">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Work"/>
         <rdfs:comment xml:lang="en">The URN that identifies this object in the STOA namespace.</rdfs:comment>
         <rdfs:label xml:lang="en">Has STOA URN</rdfs:label>
     </owl:DatatypeProperty>
@@ -166,6 +184,7 @@
     <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#hasVIAF_URN -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#hasVIAF_URN">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Person"/>
         <rdfs:comment xml:lang="en">The URN that that identifies an object in the Virtual International Authority File.</rdfs:comment>
         <rdfs:label xml:lang="en">Has VIAF URN</rdfs:label>
     </owl:DatatypeProperty>
@@ -183,17 +202,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#Abbreviation -->
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#AbbreviatedName -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#Abbreviation">
+    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#AbbreviatedName">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Variant_Name"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#Alternative_Name -->
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#AlternativeName -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#Alternative_Name">
+    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#AlternativeName">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Variant_Name"/>
     </owl:Class>
     
@@ -239,25 +258,25 @@
     
 
 
-    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#English -->
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#EnglishName -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#English">
+    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#EnglishName">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Variant_Name"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#French -->
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#FrenchName -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#French">
+    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#FrenchName">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Variant_Name"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#German -->
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#GermanName -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#German">
+    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#GermanName">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Variant_Name"/>
     </owl:Class>
     
@@ -271,18 +290,18 @@
     
 
 
-    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#ISNI -->
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#ISNIName -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#ISNI">
+    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#ISNIName">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Authority"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Variant_Name"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#Italian -->
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#ItalianName -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#Italian">
+    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#ItalianName">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Variant_Name"/>
     </owl:Class>
     
@@ -304,17 +323,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#Latin -->
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#LatinName -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#Latin">
+    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#LatinName">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Variant_Name"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#Perseus -->
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#PerseusName -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#Perseus">
+    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#PerseusName">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Variant_Name"/>
     </owl:Class>
     
@@ -326,9 +345,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#Spanish -->
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#SpanishName -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#Spanish">
+    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#SpanishName">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Variant_Name"/>
     </owl:Class>
     
@@ -354,6 +373,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/digital-latin-library-ontology#Worldcat">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Authority"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#AbbreviatedTitle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#AbbreviatedTitle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Title"/>
     </owl:Class>
     
 
@@ -384,7 +411,8 @@
     <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Authorized_Name -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Authorized_Name">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Name"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Label"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Title"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Variant_Name"/>
     </owl:Class>
     
@@ -414,15 +442,26 @@
     
 
 
-    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Name -->
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Label -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Name"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Label"/>
     
 
 
     <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Person -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Title -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Title">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Label"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Variant_Name"/>
+        <rdfs:comment xml:lang="en">The title of a work or an edition.</rdfs:comment>
+        <rdfs:label xml:lang="en">Title</rdfs:label>
+    </owl:Class>
     
 
 
@@ -437,7 +476,7 @@
     <!-- http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Variant_Name -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Variant_Name">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Name"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sjhuskey/ontologies/2019/9/dll-ontology#Label"/>
     </owl:Class>
     
 
